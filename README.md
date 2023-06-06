@@ -1,46 +1,38 @@
-# Bot Mocelin
+Bot Mocelin
+Bot Mocelin é um bot para o Discord desenvolvido com Hikari e Lightbulb.
 
-Bot Mocelin is a Discord bot built with Hikari and Lightbulb.
+Recursos
+Saudação Bot Mocelin: Envia uma mensagem de saudação quando invocado.
 
-## Features
+Piada: Conta uma piada aleatória quando invocado.
 
-- **Saldação Bot Mocelin**: Sends a greeting message when invoked.
+Calculadora: Fornece funcionalidade básica de calculadora com comandos para adição, subtração, multiplicação e divisão.
 
-- **Piada**: Tells a random joke when invoked.
+Temperatura: Obtém a temperatura atual, umidade e velocidade do vento para uma cidade especificada.
 
-- **Calculadora**: Provides basic calculator functionality with commands for addition, subtraction, multiplication, and division.
+## Configuração
 
-- **Temperatura**: Retrieves the current temperature, humidity, and wind speed for a specified city.
+    Instale as dependências necessárias:
+    pip install -r requirements.txt
 
-## Setup
+    Obtenha as chaves de API necessárias:
 
-**Clone the repository:
-   ```shell
-   git clone https://github.com/your-username/bot-mocelin.git
+    Crie uma chave de API do OpenWeatherMap e salve-a em api_weather_key.txt.
+    Obtenha um token de bot do Discord e salve-o em token.txt.
 
-1.Install the required dependencies:
-pip install -r requirements.txt
+    Execute o bot:
+    python bot.py
 
-2.Obtain the necessary API keys:
+Uso
 
-    Create an OpenWeatherMap API key and save it in api_weather_key.txt.
-    Obtain a Discord bot token and save it in token.txt.
+Use o comando !msg_dheime ou o comando de barra para receber uma saudação do bot.
+Use o comando !piada ou o comando de barra para obter uma piada aleatória.
+Use o comando !calculadora ou o comando de barra para realizar operações matemáticas básicas.
+Use o comando !temperatura ou o comando de barra para obter a temperatura atual de uma cidade especificada.
 
-3.Run the bot:
-python bot.py
+**Sinta-se à vontade para personalizar e aprimorar o bot de acordo com suas necessidades.
 
+## Licença
+Este projeto está licenciado sob a Licença MIT.
 
-Usage
-
-    Use the !msg_dheime command or slash command to receive a greeting from the bot.
-    Use the !piada command or slash command to get a random joke.
-    Use the !calculadora command or slash command to perform basic mathematical operations.
-    Use the !temperatura command or slash command to get the current temperature for a specified city.
-
-Feel free to customize and enhance the bot according to your needs.
-License
-
-This project is licensed under the MIT License.
-
-Feel free to modify the contents and formatting of the README.md file according to your preferences and specific project details.
 
