@@ -1,7 +1,8 @@
-Bot Mocelin
+## Bot Mocelin
+
 Bot Mocelin é um bot para o Discord desenvolvido com Hikari e Lightbulb.
 
-Recursos
+## Recursos
 Saudação Bot Mocelin: Envia uma mensagem de saudação quando invocado.
 
 Piada: Conta uma piada aleatória quando invocado.
